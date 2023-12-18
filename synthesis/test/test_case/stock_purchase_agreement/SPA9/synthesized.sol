@@ -25,7 +25,7 @@ contract StockPurchaseAgreement_9 {
     event TerminatedByOthers();
     event Closed();
     constructor() public payable {
-        EffectiveTime = 1257120000;
+        EffectiveTime = 1257091200;
         CloseTime = 1000;
         OutSideClosingDate = 1000;
         sellerName = "BETWEEN LOCATION BASED TECHNOLOGIES";

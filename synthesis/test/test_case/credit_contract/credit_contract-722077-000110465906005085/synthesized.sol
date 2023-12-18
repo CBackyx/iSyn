@@ -25,9 +25,9 @@ contract CreditAgreement_6 {
     event TerminatedByOthers();
     event Closed();
     constructor() public payable {
-        EffectiveTime = 1138233600;
+        EffectiveTime = 1138204800;
         CloseTime = 1000;
-        OutSideClosingDate = 1348963200;
+        OutSideClosingDate = 1348934400;
         sellerName = "AMC ENTERTAINMENT INC";
         seller = address(0);
         buyerName =["CITICORP"];

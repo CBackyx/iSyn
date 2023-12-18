@@ -25,7 +25,7 @@ contract StockPurchaseAgreement_0 {
     event TerminatedByOthers();
     event Closed();
     constructor() public payable {
-        EffectiveTime = 1317686400;
+        EffectiveTime = 1317657600;
         CloseTime = 1000;
         OutSideClosingDate = 1000;
         sellerName = "Entech Solar";

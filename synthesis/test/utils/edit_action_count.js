@@ -53,7 +53,7 @@ for (var i=0; i<category_dirs.length; i++) {
         // continue;
         let IR = JSON.parse(fs.readFileSync(contract_dir_path + "IR.json"));
         IR = preprocess_IR(IR);
-        let gt_IR = JSON.parse(fs.readFileSync(contract_dir_path + "IR_ground_truth_proofread.json"));
+        let gt_IR = JSON.parse(fs.readFileSync(contract_dir_path + "IR_ground_truth.json"));
         gt_IR = preprocess_IR(gt_IR);
         let func_correct = true;
         let edit_num = 0;
@@ -119,7 +119,7 @@ for (var i=0; i<category_dirs.length; i++) {
     }
 }
 
-fs.writeFileSync("./evaluation-plot/data/edit_num_proofread.txt", output_str, "utf-8", function(err) {
+fs.writeFileSync("./evaluation-plot/data/edit_num.txt", output_str, "utf-8", function(err) {
     // console.log("test_case_num saved!");
     if (err) throw err;
     // console.log("test_conf saved!");

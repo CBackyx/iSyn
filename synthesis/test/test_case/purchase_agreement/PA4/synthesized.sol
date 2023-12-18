@@ -25,7 +25,7 @@ contract PurchaseAgreement_4 {
     event TerminatedByOthers();
     event Closed();
     constructor() public payable {
-        EffectiveTime = 1430697600;
+        EffectiveTime = 1430668800;
         CloseTime = 1000;
         OutSideClosingDate = 1000;
         sellerName = "Yes Yield Investments Limited";

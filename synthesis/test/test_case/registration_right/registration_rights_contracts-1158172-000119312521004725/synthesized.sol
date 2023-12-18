@@ -25,9 +25,9 @@ contract RegistrationRightAgreement_1 {
     event TerminatedByOthers();
     event Closed();
     constructor() public payable {
-        EffectiveTime = 1609977600;
+        EffectiveTime = 1609948800;
         CloseTime = 1000;
-        OutSideClosingDate = 1625097600;
+        OutSideClosingDate = 1625068800;
         sellerName = "comScore";
         seller = address(0);
         buyerName =["Charter Communications Holding Company"];

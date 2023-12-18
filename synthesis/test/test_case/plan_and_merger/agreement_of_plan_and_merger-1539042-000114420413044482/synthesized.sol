@@ -25,9 +25,9 @@ contract PlanAndMergerAgreement_3 {
     event TerminatedByOthers();
     event Closed();
     constructor() public payable {
-        EffectiveTime = 1336348800;
+        EffectiveTime = 1336320000;
         CloseTime = 1000;
-        OutSideClosingDate = 1356912000;
+        OutSideClosingDate = 1356883200;
         sellerName = "Westinghouse Solar";
         seller = address(0);
         buyerName =["WESTINGHOUSE SOLAR"];

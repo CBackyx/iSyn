@@ -25,9 +25,9 @@ contract UnderwritingAgreement_1 {
     event TerminatedByOthers();
     event Closed();
     constructor() public payable {
-        EffectiveTime = 907200000;
+        EffectiveTime = 907171200;
         CloseTime = 1000;
-        OutSideClosingDate = 1723680000;
+        OutSideClosingDate = 1723651200;
         sellerName = "U.S. BANK NATIONAL ASSOCIATION";
         seller = address(0);
         buyerName =["Iron Mountain Incorporated

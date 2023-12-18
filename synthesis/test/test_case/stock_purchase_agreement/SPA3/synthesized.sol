@@ -25,9 +25,9 @@ contract StockPurchaseAgreement_3 {
     event TerminatedByOthers();
     event Closed();
     constructor() public payable {
-        EffectiveTime = 1616976000;
+        EffectiveTime = 1616947200;
         CloseTime = 1000;
-        OutSideClosingDate = 1617148800;
+        OutSideClosingDate = 1617120000;
         sellerName = "BIOCARDIA";
         seller = address(0);
         buyerName =["LINCOLN PARK CAPITAL FUND"];

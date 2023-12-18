@@ -2,6 +2,13 @@
 
 Experiments of RQ4 are used for measuring the quality of validation case generated using SmartIR. Based on our design, the validation cases are determined by the legal agreement operation constraints. Consequently, we compare the operation constraints in SmartIR with the ground-truth operation contraints manually extracted from legal agreements. The detailed evaluation results are summarized as follows.
 
+```bash
+cd validation/test
+node batchGenOperationConstraint.js
+# Copy the content of validation_case_num.txt to synthesis/test/evaluation-plot/data/test-case.txt
+cd synthesis/test/evaluation-plot
+python RQ4_plot.py
+```
 
 | Contract Category   | CC      | EA      | IC      | PMA     | RRC    | SECPA  | TA      | Mini-bench | Average |
 | ------------------- | ------- | ------- | ------- | ------- | ------ | ------ | ------- | ---------- | ------- |

@@ -75,7 +75,7 @@ for (var i=0; i<category_dirs.length; i++) {
         if (!contract_files.includes("IR.json")) continue;
 
         console.log(contract_dirs[j]);
-        var IR_ground_truth = JSON.parse(fs.readFileSync(contract_dir_path + "IR_ground_truth_proofread.json"));
+        var IR_ground_truth = JSON.parse(fs.readFileSync(contract_dir_path + "IR_ground_truth.json"));
         var IR = JSON.parse(fs.readFileSync(contract_dir_path + "/IR.json"));
 
         IR_ground_truth = IR_preprocess(IR_ground_truth)
@@ -93,7 +93,7 @@ for (var i=0; i<category_dirs.length; i++) {
     }
 }
 
-fs.writeFileSync("./evaluation-plot/data/func_num_proofread.txt", output_str, "utf-8", function(err) {
+fs.writeFileSync("./evaluation-plot/data/func_num.txt", output_str, "utf-8", function(err) {
     // console.log("test_case_num saved!");
     if (err) throw err;
     // console.log("test_conf saved!");

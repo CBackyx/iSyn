@@ -25,9 +25,9 @@ contract RegistrationRightAgreement_12 {
     event TerminatedByOthers();
     event Closed();
     constructor() public payable {
-        EffectiveTime = 966470400;
+        EffectiveTime = 966441600;
         CloseTime = 1000;
-        OutSideClosingDate = 967680000;
+        OutSideClosingDate = 967651200;
         sellerName = "Integrated Surgical Systems";
         seller = address(0);
         buyerName =["Investor"];

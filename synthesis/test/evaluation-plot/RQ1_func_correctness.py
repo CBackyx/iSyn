@@ -61,7 +61,7 @@ for i in range(len(cgs)):
     func_num.append([])
     correct_num.append([])
 
-with open("data/func_num_proofread.txt", "r", encoding="utf-8") as ifile:
+with open("data/func_num.txt", "r", encoding="utf-8") as ifile:
     lines = ifile.readlines()
     lines = lines[2:]
     lines.sort()

@@ -25,7 +25,7 @@ contract TrustAgreement_3 {
     event TerminatedByOthers();
     event Closed();
     constructor() public payable {
-        EffectiveTime = 1088640000;
+        EffectiveTime = 1088611200;
         CloseTime = 1000;
         OutSideClosingDate = 1000;
         sellerName = "LASALLE BANK NATIONAL ASSOCIATION";

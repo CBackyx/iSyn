@@ -25,9 +25,9 @@ contract IndentureAgreement_0 {
     event TerminatedByOthers();
     event Closed();
     constructor() public payable {
-        EffectiveTime = 1371600000;
+        EffectiveTime = 1371571200;
         CloseTime = 1000;
-        OutSideClosingDate = 2002406400;
+        OutSideClosingDate = 2002377600;
         sellerName = "NorthStar Realty Finance Limited Partnership";
         seller = address(0);
         buyerName =["Wilmington Trust"];

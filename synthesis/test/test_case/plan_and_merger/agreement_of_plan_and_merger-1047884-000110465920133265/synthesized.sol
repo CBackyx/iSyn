@@ -25,9 +25,9 @@ contract PlanAndMergerAgreement_0 {
     event TerminatedByOthers();
     event Closed();
     constructor() public payable {
-        EffectiveTime = 1607212800;
+        EffectiveTime = 1607184000;
         CloseTime = 1000;
-        OutSideClosingDate = 1632960000;
+        OutSideClosingDate = 1632931200;
         sellerName = "Anworth Mortgage Asset Corporation";
         seller = address(0);
         buyerName =["READY CAPITAL CORPORATION"];

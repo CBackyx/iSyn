@@ -25,7 +25,7 @@ contract StockPurchaseAgreement_1 {
     event TerminatedByOthers();
     event Closed();
     constructor() public payable {
-        EffectiveTime = 1427673600;
+        EffectiveTime = 1427644800;
         CloseTime = 1000;
         OutSideClosingDate = 1000;
         sellerName = "Centrue Financial Corporation";

@@ -25,9 +25,9 @@ contract TrustAgreement_7 {
     event TerminatedByOthers();
     event Closed();
     constructor() public payable {
-        EffectiveTime = 1009756800;
+        EffectiveTime = 1009728000;
         CloseTime = 1000;
-        OutSideClosingDate = 2023574400;
+        OutSideClosingDate = 2023545600;
         sellerName = "TILES";
         seller = address(0);
         buyerName =["MS Structured Asset Corp."];

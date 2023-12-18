@@ -25,7 +25,7 @@ contract SecurityAgreement_1 {
     event TerminatedByOthers();
     event Closed();
     constructor() public payable {
-        EffectiveTime = 1398384000;
+        EffectiveTime = 1398355200;
         CloseTime = 1000;
         OutSideClosingDate = 1000;
         sellerName = "INTELLIGENT LIVING INC.";

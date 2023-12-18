@@ -27,7 +27,7 @@ contract RegistrationRightAgreement_2 {
     constructor() public payable {
         EffectiveTime = 1000;
         CloseTime = 1000;
-        OutSideClosingDate = 1195603200;
+        OutSideClosingDate = 1195574400;
         sellerName = "Elandia International Inc.";
         seller = address(0);
         buyerName =["Stanford International Bank Ltd."];

@@ -25,9 +25,9 @@ contract PlanAndMergerAgreement_6 {
     event TerminatedByOthers();
     event Closed();
     constructor() public payable {
-        EffectiveTime = 1631750400;
+        EffectiveTime = 1631721600;
         CloseTime = 1000;
-        OutSideClosingDate = 1648684800;
+        OutSideClosingDate = 1648656000;
         sellerName = "Princeville Global HK Limited";
         seller = address(0);
         buyerName =["Poema Global Holdings Corp."];

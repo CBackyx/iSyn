@@ -25,9 +25,9 @@ contract RegistrationRightAgreement_9 {
     event TerminatedByOthers();
     event Closed();
     constructor() public payable {
-        EffectiveTime = 1524096000;
+        EffectiveTime = 1524067200;
         CloseTime = 1000;
-        OutSideClosingDate = 1527724800;
+        OutSideClosingDate = 1527696000;
         sellerName = "Apergy Corporation";
         seller = address(0);
         buyerName =["Purchasers"];

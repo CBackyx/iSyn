@@ -25,9 +25,9 @@ contract IndentureAgreement_4 {
     event TerminatedByOthers();
     event Closed();
     constructor() public payable {
-        EffectiveTime = 1559865600;
+        EffectiveTime = 1559836800;
         CloseTime = 1000;
-        OutSideClosingDate = 1001894400;
+        OutSideClosingDate = 1001865600;
         sellerName = "ACCEPTANCE HEREOF";
         seller = address(0);
         buyerName =["Wilmington Trust National Association"];

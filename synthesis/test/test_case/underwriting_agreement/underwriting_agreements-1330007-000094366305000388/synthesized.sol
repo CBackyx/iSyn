@@ -25,9 +25,9 @@ contract UnderwritingAgreement_4 {
     event TerminatedByOthers();
     event Closed();
     constructor() public payable {
-        EffectiveTime = 1117584000;
+        EffectiveTime = 1117555200;
         CloseTime = 1000;
-        OutSideClosingDate = 1119398400;
+        OutSideClosingDate = 1119369600;
         sellerName = "Wachovia Bank";
         seller = address(0);
         buyerName =["Underwritten Certificates"];

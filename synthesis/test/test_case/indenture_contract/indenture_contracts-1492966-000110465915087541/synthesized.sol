@@ -25,9 +25,9 @@ contract IndentureAgreement_6 {
     event TerminatedByOthers();
     event Closed();
     constructor() public payable {
-        EffectiveTime = 1435190400;
+        EffectiveTime = 1435161600;
         CloseTime = 1000;
-        OutSideClosingDate = 1006732800;
+        OutSideClosingDate = 1006704000;
         sellerName = "Nord Anglia Education Finance LLC";
         seller = address(0);
         buyerName =["HSBC Bank USA"];

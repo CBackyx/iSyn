@@ -25,7 +25,7 @@ contract StockPurchaseAgreement_5 {
     event TerminatedByOthers();
     event Closed();
     constructor() public payable {
-        EffectiveTime = 1311897600;
+        EffectiveTime = 1311868800;
         CloseTime = 1000;
         OutSideClosingDate = 1000;
         sellerName = "Griffin Ventures";

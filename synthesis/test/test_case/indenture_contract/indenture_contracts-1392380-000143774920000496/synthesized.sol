@@ -25,9 +25,9 @@ contract IndentureAgreement_5 {
     event TerminatedByOthers();
     event Closed();
     constructor() public payable {
-        EffectiveTime = 1578614400;
+        EffectiveTime = 1578585600;
         CloseTime = 1000;
-        OutSideClosingDate = 1617235200;
+        OutSideClosingDate = 1617206400;
         sellerName = "Gevo";
         seller = address(0);
         buyerName =["Wilmington Savings Fund Society"];

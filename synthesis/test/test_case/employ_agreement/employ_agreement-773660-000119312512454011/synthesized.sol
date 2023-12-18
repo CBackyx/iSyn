@@ -25,7 +25,7 @@ contract undefined_11 {
     event TerminatedByOthers();
     event Closed();
     constructor() public payable {
-        EffectiveTime = 1351728000;
+        EffectiveTime = 1351699200;
         CloseTime = 1000;
         OutSideClosingDate = 1000;
         sellerName = "R. Scott Donovan";

@@ -25,9 +25,9 @@ contract TrustAgreement_6 {
     event TerminatedByOthers();
     event Closed();
     constructor() public payable {
-        EffectiveTime = 1133222400;
+        EffectiveTime = 1133193600;
         CloseTime = 1000;
-        OutSideClosingDate = 1183248000;
+        OutSideClosingDate = 1183219200;
         sellerName = "CHASE BANK USA";
         seller = address(0);
         buyerName =["WACHOVIA EDUCATION LOAN FUNDING LLC"];

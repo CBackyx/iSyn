@@ -25,9 +25,9 @@ contract RegistrationRightAgreement_3 {
     event TerminatedByOthers();
     event Closed();
     constructor() public payable {
-        EffectiveTime = 1348099200;
+        EffectiveTime = 1348070400;
         CloseTime = 1000;
-        OutSideClosingDate = 1009756800;
+        OutSideClosingDate = 1009728000;
         sellerName = "CHINA CORD BLOOD CORPORATION";
         seller = address(0);
         buyerName =["Codan Trust Company"];

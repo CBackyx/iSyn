@@ -25,9 +25,9 @@ contract IndentureAgreement_7 {
     event TerminatedByOthers();
     event Closed();
     constructor() public payable {
-        EffectiveTime = 1564012800;
+        EffectiveTime = 1563984000;
         CloseTime = 1000;
-        OutSideClosingDate = 1736899200;
+        OutSideClosingDate = 1736870400;
         sellerName = "SENSEONICS HOLDINGS";
         seller = address(0);
         buyerName =["U.S. Bank National Association"];
